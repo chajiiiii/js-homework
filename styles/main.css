@@ -1,10 +1,4 @@
-body {
-  height: 100vh;
-  margin: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #f0db4f;
-}
+@import "/styles/common/base.css";
+@import "/styles/common/best-reset.css";
+@import "/styles/common/modern-reset.css";
+@import "/styles/common/normalize.css";

@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "live-server . --port=3000 --host=localhost --no-browser"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "eslint": "^9.30.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0"
+  }
+}
