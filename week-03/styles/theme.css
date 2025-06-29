@@ -1,0 +1,13 @@
+:root {
+  --white-text-color: rgb(249, 250, 251);
+  --black-text-color: rgb(25, 31, 40);
+  --black2-text-color: rgb(51, 61, 75);
+  --grey-text-color: rgb(78, 89, 104);
+  --accent-color: rgb(47, 47, 255);
+  --hover-color: rgb(22, 22, 126);
+  --border-color: rgb(232, 243, 255);
+  --job-title-text-size: 48px;
+  --emphasize-text-size: 17px;
+  --basic-text-size: 16px;
+  --small-text-size: 15px;
+}

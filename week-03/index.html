@@ -7,13 +7,276 @@
     <link rel="icon" href="/public/favicon/cha.svg" type="image/svg" />
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/week-03/styles/main.css" />
+    <link rel="stylesheet" href="/week-03/styles/theme.css" />
+    <link rel="stylesheet" href="/week-03/styles/components.css" />
   </head>
   <body>
-    <h1>Week 3 과제</h1>
-    <p>컴포넌트 클론 개발</p>
-    <p>더 나은 사용자 경험을 위해 개선</p>
+    <header>
+      <h1>Week 3 과제</h1>
+      <p>컴포넌트 클론 개발. 더 나은 사용자 경험을 위해 개선하기</p>
+      <span>|</span>
+      <a href="./components.html">컴포넌트 보기</a>
+    </header>
+    <hr />
 
-    <a href="./components.html">컴포넌트 </a>
+    <!-- Tab UI -->
+
+    <!-- Job Title -->
+    <div class="job-post-container">
+      <div class="job-title-wrapper">
+        <h1 class="job-title">Frontend Developer Assistant</h1>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs-container">
+        <!-- <div class="tabs-wrapper"> -->
+        <div class="tabs">
+          <button class="tab is-selected" type="button">Homepage</button>
+          <button class="tab" type="button">Interacton UX</button>
+        </div>
+
+        <div class="job-subtitle-wrapper">
+          <h2 class="job-subtitle">토스 소속</h2>
+          <span class="job-subtitle-divider">|</span>
+          <h2 class="job-subtitle">단기 계약직</h2>
+        </div>
+
+        <div class="job-post-contents">
+          <div class="tab-contents">
+            <section class="tab-content is-selected">
+              <div class="job-desc-container">
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">합류하면 함께 할 업무예요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      토스 커뮤니티에서 브랜딩을 위해 공개하는 인터랙티브 웹
+                      페이지를 만들어요.
+                    </li>
+                    <li class="job-desc-list">
+                      토스의 다양한 컨텐츠를 볼 수 있는
+                      <span class="job-desc-additional-link"
+                        ><a href="#">토스피드</a></span
+                      >
+                      웹 서비스를 개발하고 유지보수해요.
+                    </li>
+                    <li class="job-desc-list">
+                      최근에 릴리즈한 브랜딩 페이지는 다음과 같아요.
+                      <span class="job-desc-additional-link"
+                        ><a href="#">토스 10주년, 10to100</a></span
+                      >,
+                      <span class="job-desc-additional-link"
+                        ><a href="#">토스 10주년 데이터 리포트</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">이런 분과 함께하고 싶어요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      React에 대한 충분한 이해와 사용 경험이 있으신 분을 찾아요.
+                    </li>
+                    <li class="job-desc-list">
+                      TypeScript를 활용하여 검증 가능하고 안정적인
+                      어플리케이션을 개발하는 역량이 있으신 분을 찾아요.
+                    </li>
+                    <li class="job-desc-list">
+                      CSS와 CSS-in-JS 라이브러리를 활용하여 디자인과 일치하는
+                      UI를 구현하는 역량이 있으신 분을 찾아요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">이런 경험이 있다면 더 좋아요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      Framer Motion, GSAP 등 애니메이션을 위한 라이브러리를
+                      사용해보신 경험이 있다면 좋아요.
+                    </li>
+                    <li class="job-desc-list">
+                      디자인 시안과 개발한 페이지 간 1px의 오차도 불편한 디자인
+                      감각을 가지신 분이면 좋아요.
+                    </li>
+                    <li class="job-desc-list">
+                      브라우저에서 reflow가 일어나는 상황을 알고, 이를 최적화할
+                      수 있는 분이면 좋아요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">토스가 사용하는 기술</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">TypeScript, React</li>
+                    <li class="job-desc-list">TanStack Query, Recoil, Jotai</li>
+                    <li class="job-desc-list">Emotion, Framer Motion, GSAP</li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">꼭 확인해 주세요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      3개월 단기 계약직 포지션이에요. 추후 연장을 검토할 수
+                      있어요.
+                    </li>
+                    <li class="job-desc-list">
+                      주 5일, 근무시간은 10시 ~ 19시에요. (휴게시간 1시간 포함)
+                    </li>
+                    <li class="job-desc-list">
+                      월 급여는 330만원(세전)이며, 주휴수당 및 식대가 포함되어
+                      있어요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">토스로의 합류 여정</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      서류접수 > 직무 인터뷰(라이브코딩 포함) > 최종합격 및 입사
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="tab-content">
+              <div class="job-desc-container">
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">
+                    합류하게 될 팀에 대해 알려드려요
+                  </h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      Interaction 팀은 UX Platform Tribe에 속한 팀으로, 토스
+                      서비스 전반의 모든 인터랙션과 모션을 설계하고 구현해요.
+                    </li>
+                    <li class="job-desc-list">
+                      아름다운 인터랙션이 강조된 제품은 물론, 토스의 다양한
+                      서비스에서 사용되는 인터랙션 컴포넌트 및 시스템도
+                      만들어요.
+                    </li>
+                    <li class="job-desc-list">
+                      토스 커뮤니티의 디자이너와 엔지니어들이 인터랙션을 더
+                      효율적으로 적용할 수 있도록 도와주는 인터랙션 시스템과,
+                      팀에서 만든 토스의 플랫폼 공통 인터랙션 라이브러리 Rally를
+                      꾸준히 개선해요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">합류하면 함께할 업무예요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      인터랙션 팀에서 만든 인터랙션 컴포넌트 및 라이브러리를
+                      유지보수해요.
+                    </li>
+                    <li class="job-desc-list">
+                      인터랙션 디자이너와 개발자의 생산성을 높이는 툴을
+                      만들어요.
+                    </li>
+                    <li class="job-desc-list">
+                      <span class="job-desc-additional-link"
+                        ><a href="#"
+                          >👉 인터랙션 팀 어시스턴트 분들의 솔직한 인터뷰</a
+                        ></span
+                      >에서 더 많은 정보를 얻을 수 있어요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">이런 분과 함께하고 싶어요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      React, Vue, Angular 등 SPA 프레임워크 사용 경험이 있으신
+                      분을 찾아요.
+                    </li>
+                    <li class="job-desc-list">
+                      맡은 업무에 대한 강한 책임감과 명확한 커뮤니케이션 능력이
+                      있는 분을 찾아요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">이런 경험이 있다면 더 좋아요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      피그마, 프레이머 등 디자인 툴을 사용해 본 경험이 있다면
+                      좋아요.
+                    </li>
+                    <li class="job-desc-list">
+                      motion, gsap, anime.js 등 애니메이션 라이브러리를 사용해본
+                      경험이 있다면 좋아요.
+                    </li>
+                    <li class="job-desc-list">
+                      문제를 발견하고 효율적으로 개선한 경험이 있다면 좋아요.
+                    </li>
+                    <li class="job-desc-list">
+                      개발 인턴 또는 단기 근무 경험이 있으시다면 좋아요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">토스가 사용하는 기술</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">React</li>
+                    <li class="job-desc-list">TypeScript</li>
+                    <li class="job-desc-list">
+                      Jest, Storybook, Emotion, SCSS, motion, gsap
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">꼭 확인해 주세요</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      2개월 단기 계약직 포지션이에요. 추후 연장을 검토할 수
+                      있어요.
+                    </li>
+                    <li class="job-desc-list">
+                      주 5일, 근무시간은 10시 ~ 19시에요. (휴게시간 1시간 포함)
+                    </li>
+                    <li class="job-desc-list">
+                      월 급여는 330만원(세전)이며, 주휴수당 및 식대가 포함되어
+                      있어요.
+                    </li>
+                  </ul>
+                </div>
+                <div class="job-desc-wrapper">
+                  <h3 class="job-desc-title">토스로의 합류 여정</h3>
+                  <ul class="job-desc-lists">
+                    <li class="job-desc-list">
+                      서류접수 > 직무 인터뷰(라이브코딩 포함) > 최종합격 및 입사
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="blockquote-wrapper">
+                  <h3 class="blockquote-title">함께할 동료를 위한 한마디</h3>
+                  <div class="blockquote-content">
+                    <blockquote class="blockquote-paragraph" cite="인터뷰 주소">
+                      <p>
+                        “지금 와서 돌이켜보면, 더 일찍 지원하지 않고 망설였던
+                        시간이 정말 아쉽고 후회돼요. 조금이라도 더 일찍
+                        들어왔다면 훨씬 더 많은 경험과 배움을 얻었을 거라고
+                        확신해요.”
+                      </p>
+                    </blockquote>
+                    <a class="blockquote-link" href="#"
+                      >더 자세한 인터뷰 보기
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- </div> -->
+
+          <!-- Apply Link -->
+          <div class="link-wrapper">
+            <a class="link" href="#">지원하기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="/week-03/script/script.js"></script>
   </body>
 </html>

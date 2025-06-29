@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 2.625rem;
+  align-items: baseline;
+
+  h1 {
+    margin-inline-end: 12px;
+  }
+
+  span {
+    margin-inline: 0.875rem;
+  }
+}
+
+.job-post-container {
+  margin: 1.5rem 2.625rem;
+}
+
+.job-title-wrapper {
+  margin-block-end: 1.875rem;
+}
+
+.tabs {
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid var(--border-color);
+  margin-block-end: 3.75rem;
+
+  .tab {
+    padding: 10px 20px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    color: var(--grey-text-color);
+
+    &.is-selected {
+      font-weight: 700;
+      color: var(--accent-color);
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    &:hover {
+      font-weight: 700;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+.job-post-contents {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.tab-contents {
+  position: relative;
+
+  .tab-content {
+    display: none;
+    padding-inline-end: 1.25rem;
+
+    &.is-selected {
+      display: block;
+    }
+  }
+}
+
+.link-wrapper {
+  height: 64px;
+  width: 100%;
+  position: sticky;
+  top: 42px;
+  right: 2.625rem;
+}
