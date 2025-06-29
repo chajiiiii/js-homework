@@ -3,8 +3,19 @@ body {
   margin: 0;
 
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 
-  background-color: #f0db4f;
+  background-color: rgb(255, 157, 171);
+  color: rgb(195, 240, 255);
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: white;
+    }
+  }
 }
